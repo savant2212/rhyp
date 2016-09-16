@@ -1,3 +1,7 @@
 kernel.o
 libkernel.a
 *.swp
+target/armv7-unknown-linux-gnueabihf target/debug
+kernel.bin
+*.obj
+*.o

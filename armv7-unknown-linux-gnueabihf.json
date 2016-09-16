@@ -1,0 +1,11 @@
+{
+    "llvm-target": "armv7-unknown-linux-gnueabihf",
+    "target-endian": "little",
+    "target-pointer-width": "32",
+    "arch": "arm",
+    "os": "linux",
+    "cpu": "generic",
+    "env": "armv7",
+    "no_compiler_rt": true,
+    "features": "+v7"
+}

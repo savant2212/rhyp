@@ -2,10 +2,9 @@ OUTPUT_ARCH(arm)
 ENTRY(_entry)
 
 SECTIONS {
-	.text {
+	.text : {
 		*.(text)
 	}
 	.rodata : { *(.rodata .rodata.*) }
-
 }
 

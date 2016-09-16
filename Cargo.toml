@@ -1,0 +1,19 @@
+[package]
+name = "rhyp"
+version = "0.0.0"
+authors = ["savant<savant.d@gmail.com>"]
+
+[lib]
+crate-type = ["staticlib"]
+
+[target.armv7-unknown-linux-gnueabihf.dependencies]
+rlibc="1.0.0"
+
+# The development profile, used for `cargo build`.
+[profile.dev]
+panic = "abort"
+
+# The release profile, used for `cargo build --release`.
+[profile.release]
+panic = "abort"
+
